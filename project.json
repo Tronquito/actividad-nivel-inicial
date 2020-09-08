@@ -1,0 +1,42 @@
+{
+  "title": "Jclic_Nivel inicial",
+  "date": "6/09/20",
+  "areaCodes": [
+    "vip"
+  ],
+  "areas": {
+    "es": "Plástica y visual"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "levels": {
+    "es": "Infantil (3-6)"
+  },
+  "description": {},
+  "license": {
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA<\/a>"
+  },
+  "meta_langs": [
+    "es"
+  ],
+  "mainFile": "jclic_nivel_inicial.jclic",
+  "cover": "project-cover.jpg",
+  "thumbnail": "project-thumb.jpg",
+  "activities": 1,
+  "mediaFiles": 6,
+  "totalSize": 106627,
+  "files": [
+    "animales-resized.jpg",
+    "favicon.ico",
+    "icon-192.png",
+    "icon-72.png",
+    "imsmanifest.xml",
+    "index.html",
+    "jclic_nivel_inicial.jclic",
+    "jclic_nivel_inicial.jclic.js",
+    "project-cover.jpg",
+    "project-thumb.jpg",
+    "project.json"
+  ]
+}

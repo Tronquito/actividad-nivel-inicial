@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="jclic_nivel_inicial" version="0.1.3">
+ <settings>
+  <title>Jclic_Nivel inicial</title>
+  <revision description="created" date="9/6/20" />
+  <descriptors area-codes="vip" level-codes="INF" />
+  <meta_langs>es</meta_langs>
+  <descriptions>
+   <description language="es" />
+  </descriptions>
+  <license type="by-nc-sa" url="https://creativecommons.org/licenses/by-nc-sa/4.0" />
+ </settings>
+ <sequence>
+  <item id="start" name="1, 2, 3 a jugar!" />
+ </sequence>
+ <activities>
+  <activity class="@puzzles.DoublePuzzle" name="1, 2, 3 a jugar!" code="">
+   <description>
+    <p>Esta actividad esta hecha para que los niños pongan a prueba sus habilidades.&#xD;</p>
+    <p>Los rompecabezas ayudan a los niños a resolver problemas, ya que deben pensar y desarrollar una estrategia para lograr el objetivo de ensamblar las piezas. El pasar algún tiempo con la mente ocupada, intentando completar un puzzle, activa en el cerebro del niño la búsqueda de soluciones para alcanzar el objetivo.</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.0" markerStroke="2.7">
+      <font family="BatangChe" size="17" bold="true" />
+      <color background="0xFFCC66" />
+     </style>
+     <p>	Une las piezas correctamente y descubre la imagen</p>
+    </cell>
+    <cell type="final">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="BatangChe" size="17" bold="true" />
+      <color foreground="0x33CC00" background="0xFFCC66" />
+     </style>
+     <p>Muy bien! Lo has logrado</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <font family="BatangChe" size="17" bold="true" />
+      <color foreground="0xFF3333" background="0xFFCC66" />
+     </style>
+     <p>Uy! Intentalo nuevamente</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" maxTime="250" countDownTime="false" report="true" reportActions="false">
+    <container bgColor="0xFFFF99">
+     <counters time="true" actions="false" score="true" />
+    </container>
+    <window bgColor="0x99FF99" border="true" />
+   </settings>
+   <cells rows="3" cols="3" border="true" image="Animales-resized.jpg">
+    <style />
+    <shaper class="@ClassicJigSaw" cols="3" rows="3" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="Animales-resized.jpg" file="animales-resized.jpg" />
+ </mediaBag>
+</JClicProject>
+
